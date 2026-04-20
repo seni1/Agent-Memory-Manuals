@@ -48,8 +48,10 @@ Each manual is version-pinned against its validation environment. Check the head
 
 Current versions:
 
-- Claude Code Memory Manual v1.0, April 2026
+- Claude Code Memory Manual v2.0, April 20, 2026
 - Codex AGENTS.md Manual v1.3, April 2026
+
+Prior versions are archived under each manual's `archive/` directory for historical traceability. Do not cite or circulate archived versions; use the current manuals as authority.
 
 ## Author
 
