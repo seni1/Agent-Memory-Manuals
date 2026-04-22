@@ -24,6 +24,8 @@ The design principles translate across coding agents that read `AGENTS.md`, but 
 
 `AGENTS.md` is a control layer, not a knowledge base. Keep it short, load-bearing, and focused on execution behavior. Put navigation in READMEs, factual authority in canonical docs, and command-execution policy in `rules`.
 
+This manual should be read as the Codex adapter layer inside the larger multi-agent memory system described at the repo root, not as the top-level worldview of the repository.
+
 ## Read the manual
 
 [Codex_AGENTS_Manual.md](./Codex_AGENTS_Manual.md)

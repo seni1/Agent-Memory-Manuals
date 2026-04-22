@@ -8,6 +8,10 @@ A collection of operational manuals for configuring the persistent-context layer
 
 These are not documentation dumps. They are opinionated, pared-down manuals built from direct operator experience and validated against vendor documentation.
 
+The deeper frame is system-first: this repo is best read as a multi-agent knowledgebase and memory administration surface, with agent-specific manuals acting as adapters rather than as the whole worldview.
+
+See [SYSTEM_Multi_Agent_KB_Frame.md](./SYSTEM_Multi_Agent_KB_Frame.md).
+
 ## Manuals available
 
 | Agent | Vendor | Directory | Primitive |
@@ -28,6 +32,16 @@ Every manual here repeats the same thesis because it is load-bearing: the persis
 A coding agent's persistent-context file is not a README, not a wiki, and not a place to stash everything you want the agent to "know about" your project. It is a set of high-priority system instructions competing with the agent's own internal prompt for finite attention. Every line you add dilutes the rest.
 
 The manuals differ on mechanics, not on this principle.
+
+## Architecture
+
+This repo should be read through a three-layer model:
+
+1. **System layer**: repo purpose, canon, archive logic, navigation doctrine, and memory philosophy
+2. **Shared agent layer**: cross-agent governance rules that should hold regardless of vendor
+3. **Agent adapter layer**: Claude- or Codex-specific manuals explaining how each platform plugs into the system
+
+That keeps the manuals useful without letting any one manual define the whole repository frame.
 
 ## Recommended reading order
 
